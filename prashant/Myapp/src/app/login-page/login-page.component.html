@@ -1,0 +1,34 @@
+  <div class="login-container">
+    <div class="login-box"> 
+      <div class="left-box">
+       <h1>Log In</h1>
+        <input type="text" class="input-box" placeholder="UserName" name="username"[(ngModel)]="username">
+        <input type="password" class="input-box" placeholder="Enter password" name="Password"[(ngModel)]="Password"> 
+        <button type="submit" class="submit-btn" (click)="Login()">Login</button>
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <span class="" style="color: white;">{{errorMsg}}</span>
+          </div>
+        </div>
+        <span class="bottom_login"><i><b>Log in with Social Network </b></i></span>
+        <div class="row">
+        <div class="d-flex mt-2" style="align-content: center;">
+          <div class="col-sm-3 ps-2 pe-2">
+            <button class="social facebook btn btn-sm-2"><i class="fab fa-facebook-f"></i></button>
+          </div>
+          <div class="col-sm-3 ps-2 pe-2">
+            <button class="social twitter btn btn-sm-2"><i class="fab fa-twitter"></i></button>
+            </div>
+            <div class="col-sm-3 ps-2 pe-2">
+            <button class="social google btn btn-sm-2"><i class="fab fa-google"></i></button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+        <!-- <div class="right-box">
+
+        </div> -->
+      </div>
+      </div>
+

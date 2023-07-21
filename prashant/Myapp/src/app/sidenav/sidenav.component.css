@@ -1,0 +1,34 @@
+
+.side-menu {
+  margin-top: 6%;
+  margin-left: 1%;
+  border-radius: 10px;
+  box-shadow: 6px 6px 9px -4px rgba(0,0,0,0.75);
+  width: 220px;
+  height: 100%;
+  background-color: #17395d;
+}
+
+.side-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-menu li {
+  padding: 10px;
+}
+
+.side-menu li a {
+  text-decoration: none;
+  color: #f6f2f2;
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.side-menu li a:hover {
+  background-color: rgb(34, 49, 34);
+  padding:5px;
+  border-radius: 5px;
+}
